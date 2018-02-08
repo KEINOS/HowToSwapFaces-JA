@@ -1,9 +1,10 @@
 [この記事](https://blog.keinos.com/20180207_3332)は、ディープラーニング（Tensorflow と OpenCV）を使った**動画内の顔の置き換えのチュートリアル**（Mac版）です。
 
-<del>必ず、参考記事の著者の[注意文](https://www.reddit.com/r/deepfakes/comments/7tjjbv/what_ive_learned/)を読み、理解した上で本記事をお読みください。</del>
+必ず、以下を読み、理解した上で本記事をお読みください。
 
 - <del>注意記事「[What I've learned](https://www.reddit.com/r/deepfakes/comments/7tjjbv/what_ive_learned/)」</del> @ reddit
 - <del>参考記事「[Tutorial for Mac ](https://www.reddit.com/r/deepfakes/comments/7ttqk2/tutorial_for_mac/)」</del> @ reddit
+- [Deepfakes の作り方から学ぶ機械学習と SNS などの画像公開の危険性](https://blog.keinos.com/20180207_3285)
 
 2018/02/08: 参考記事の著者のアカウントが閉じられたため、リンクが切れました。主な内容としては、「偽装ポルノに使うな」です。ここでも同じことを強く言います。
 
