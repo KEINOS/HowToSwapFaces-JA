@@ -21,7 +21,7 @@
 	- https://github.com/deepfakes/faceswap/archive/master.zip
 	- 解凍フォルダを "faceswap" に変更する
 
-3. 以下の 6 つのフォルダを作成してわかりやすい名前にする。
+3. "faceswap/"内に以下の 6 つのフォルダを作成してわかりやすい名前にする。
 	1. 人物 A の素材（例："Me/"など）
 	2. 人物 A の顔（例："My_face/"など）
 	3. 人物 B の素材（例："He/"など）
