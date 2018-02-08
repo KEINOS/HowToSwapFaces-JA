@@ -84,7 +84,7 @@
 15. 「人物 B の素材」ディレクトリに移動します
 	- `$ cd /path/to/your/faceswap/[人物 B の素材]/`
 	- 動画があることを確認し、ファイル名を英数字スペースなしに変更します。（以下は`scene.mp4`に変更する場合。Finderで変更も可）
-		- `mv ./[動画名].mp4 ./ 
+		- `mv ./[動画名].mp4 ./`
 
 16. [動画を静止画に展開](https://qiita.com/matoken/items/664e7a7e8f31e8a46a60)
 	- `$ ffmpeg -i scene.mp4 -vf fps=30 scene%06d.png`
