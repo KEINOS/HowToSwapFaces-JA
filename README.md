@@ -4,15 +4,17 @@
 
 - <del>注意記事「[What I've learned](https://www.reddit.com/r/deepfakes/comments/7tjjbv/what_ive_learned/)」</del> @ reddit
 - <del>参考記事「[Tutorial for Mac ](https://www.reddit.com/r/deepfakes/comments/7ttqk2/tutorial_for_mac/)」</del> @ reddit
-- [Deepfakes の作り方から学ぶ機械学習と SNS などの画像公開の危険性](https://blog.keinos.com/20180207_3285)
 
-2018/02/08: 参考記事の著者のアカウントが閉じられたため、リンクが切れました。主な内容としては、「偽装ポルノに使うな」です。ここでも同じことを強く言います。
+2018/02/08: 参考記事の著者のアカウントが閉じられたため、リンクが切れました。主な内容としては、「偽装ポルノに使うな」で、ここでも同じことを強く言います。
+
+**Deepfakes/Faceswapの違法性に関して**は、「[Deepfakes の作り方から学ぶ機械学習と SNS などの画像公開の危険性](https://blog.keinos.com/20180207_3285)」をご覧ください。
+https://blog.keinos.com/20180207_3285
 
 ## はじめに
 
 この記事は人物 A の顔を、人物 B の動画の顔に置き換える技術文書です。流れを見ればわかりますが、特別なことをしておらず、すでに[既存の公開されている技術を組み合わせているだけ](https://blog.keinos.com/20180207_3285#outline__2)だとわかると思います。
 
-この記事の目的は、アタリで描かれたアニメーションや漫画に、機械学習したキャラクターの顔を後から置き換えることで、**アニメーターや漫画家の負荷を減らすことは出来ないかという前衛的な実験**を目的として作成されています。原文は [GitHub](https://github.com/KEINOS/HowToSwapFaces-JA) に起きますので、何か活用案やアイデアなどありましたら [issue を立てて](https://github.com/KEINOS/HowToSwapFaces-JA/issues)ください。なお、冷やかしなど不本意な issue はリポジトリのオーナー権限と独断で削除いたします。
+この記事の目的は、アタリで描かれたアニメーションや漫画に、機械学習したキャラクターの顔を後から置き換えることで、**アニメーターや漫画家の負荷を減らすことは出来ないかという前衛的な実験**を目的として作成されています。原文は [GitHub](https://github.com/KEINOS/HowToSwapFaces-JA) に置きますので、何か活用案やアイデアなどありましたら [issue を立てて](https://github.com/KEINOS/HowToSwapFaces-JA/issues)ください。なお、冷やかしなど不本意な issue はリポジトリのオーナー権限と独断で削除いたします。
 
 ## Deepfakes のチュートリアル
 
@@ -87,7 +89,7 @@
 15. 「人物 B の素材」ディレクトリに移動します
 	- `$ cd /path/to/your/faceswap/[人物 B の素材]/`
 	- 動画があることを確認し、ファイル名を英数字スペースなしに変更します。（以下は`scene.mp4`に変更する場合。Finderで変更も可）
-		- `mv ./[動画名].mp4 ./`
+		- `mv ./[動画名].mp4 ./scene.mp4`
 
 16. [動画を静止画に展開](https://qiita.com/matoken/items/664e7a7e8f31e8a46a60)
 	- `$ ffmpeg -i scene.mp4 -vf fps=30 scene%06d.png`
